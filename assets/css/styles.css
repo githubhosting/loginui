@@ -469,12 +469,14 @@ img {
 
 /*=============== NAV ===============*/
 .navnewtext {
-  position: absolute;
   display: flex;
-  font-weight: 500;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  font-weight: 600;
   align-self: center;
   font-size: 14px;
-  top: 1rem;
+  top: auto;
   right: 1rem;
   text-decoration: none;
   color: black;
